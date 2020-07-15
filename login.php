@@ -19,9 +19,9 @@ include "includes/process/login.process.php";
     <div class="flash-message">
         <h4>
             <?php
-                if(isset($_SESSION['mssge'])) {
-                    echo $_SESSION['mssge'];
-                    unset($_SESSION['mssge']);
+                if(isset($_SESSION['logged-out'])) {
+                    echo $_SESSION['logged-out'];
+                    unset($_SESSION['logged-out']);
                 }
             ?>
         </h4>
