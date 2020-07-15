@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    include "includes/database/connection.php";
+    include "includes/process/register.process.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
