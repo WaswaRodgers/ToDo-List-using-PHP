@@ -1,6 +1,6 @@
 <?php
 
-include_once('./database/connection.php');
+include_once('includes/database/connection.php');
 
 
 if(isset($_POST['login-user'])) {
