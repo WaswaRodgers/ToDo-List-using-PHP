@@ -27,7 +27,7 @@ if(isset($_POST['submit-task'])) {
     if(isset($_GET['delete_id'])) {
         $task_id = $_GET['delete_id'];
         
-        $query = "DELETE FROM tasks WHERE task_id=$task_id";
+        $query = "DELETE FROM tasks WHERE task_id = $task_id";
         $delete_result = mysqli_query($conn, $query);
         
         
